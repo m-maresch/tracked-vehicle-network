@@ -7,7 +7,7 @@ The MockAPIGateway folder contains a Backend application used for testing by the
 
 The MqttListener and MqttPublisher folders contain applications used for testing the communication with the vehicles.
 
-If you have any questions about the application or you'd like to know how to run it then feel free to contact me via mmaresch.com.
+If you have any questions about the application or you'd like to know how to run it then feel free to contact me via [mmaresch.com](http://mmaresch.com).
 
 # Dependencies
 Thanks to everyone contributing to any of the following projects:
