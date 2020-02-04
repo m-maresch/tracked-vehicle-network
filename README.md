@@ -1,5 +1,5 @@
 # Tracked Vehicle Network
-This repository contains the Backend for a tracked vehicle network. The project consists of tracked vehicles being controlled via a Web app (e.g. rotate left/right, drive forward) which also displays data measured by the vehicles (temperature, humidity, light intensity, gps). These talk to the Backend (which is the part I developed) via MQTT (VerneMQ). The Web app communicates with the Backend via HTTP. Data is persisted in an Ignite cluster and in Kafka.
+This project consists of tracked vehicles being controlled via a Web app (e.g. rotate left/right, drive forward) which also displays data measured by the vehicles (temperature, humidity, light intensity, gps). These talk to the Backend via MQTT (VerneMQ). The Web app communicates with the Backend via HTTP. Data is persisted in an Ignite cluster and in Kafka. This repository contains the Backend for the tracked vehicle network (basically everything I developed).
 
 The VehicleManagementService folder contains the Backend application.
 
