@@ -1,0 +1,23 @@
+version: '2'
+services:
+  kafka:
+    image: wurstmeister/kafka
+    ports:
+    - "9092:9092"
+    hostname: kafka
+    links:
+    - zookeeper
+    environment:
+    - KAFKA_ADVERTISED_HOST_NAME=192.168.99.100
+    - KAFKA_ZOOKEEPER_CONNECT=zookeeper:2181
+    - KAFKA_ADVERTISED_PORT=9092
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+    - "2181:2181"
+  vernemq:
+    image: erlio/docker-vernemq
+    environment:
+      DOCKER_VERNEMQ_ALLOW_ANONYMOUS: 'on'
+    ports:
+      - '1883:1883'
