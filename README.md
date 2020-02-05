@@ -3,7 +3,7 @@ This project, developed by a few colleagues and me, consists of **tracked vehicl
 
 This repository contains (basically everything I developed) the **IoT-backend**, a **In-Memory Computing Platform-based, reactive Microservice**, and related software (e.g. used for testing). The vehicles talk to the IoT-backend via **MQTT** (VerneMQ). The Web app communicates with the IoT-backend via HTTP. Data is persisted in an **Ignite cluster** and in **Kafka**.
 
-The VehicleManagementService folder contains the IoT-backend application.
+The VehicleManagementService folder contains the IoT-backend application as well as a docker-compose.yml file for spinning up the necessary infrastructure for a development environment.
 
 The MockAPIGateway folder contains a Backend application used for testing by the frontend team.
 
