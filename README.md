@@ -1,7 +1,9 @@
 # Tracked Vehicle Network
-This project, developed by a few colleagues and me, consists of **tracked vehicles** being controlled via a **Web app** (e.g. rotate left/right, drive forward) which also **displays data measured** by the vehicles (temperature, humidity, light intensity, gps). These talk to the **IoT-backend** via **MQTT** (VerneMQ). The Web app communicates with the IoT-backend via HTTP. Data is persisted in an **Ignite cluster** and in **Kafka**. This repository contains the IoT-backend, a **In-Memory Computing Platform-based, reactive Microservice**, and related software for the tracked vehicle network (basically everything I developed).
+This project, developed by a few colleagues and me, consists of **tracked vehicles** being controlled via a **Web app** (e.g. rotate left/right, drive forward). Said app **displays data measured** by the vehicles (**temperature, humidity, light intensity, gps**). 
 
-The VehicleManagementService folder contains the Backend application.
+The vehicles talk to the **IoT-backend** via **MQTT** (VerneMQ). The Web app communicates with the IoT-backend via HTTP. Data is persisted in an **Ignite cluster** and in **Kafka**. This repository contains (basically everything I developed) the IoT-backend, a **In-Memory Computing Platform-based, reactive Microservice**, and related software (e.g. used for testing) for the tracked vehicle network.
+
+The VehicleManagementService folder contains the IoT-backend application.
 
 The MockAPIGateway folder contains a Backend application used for testing by the frontend team.
 
