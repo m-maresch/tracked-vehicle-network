@@ -1,5 +1,5 @@
 # Tracked Vehicle Network
-This project, developed by a few colleagues and me, consists of tracked vehicles being controlled via a **Web app** (e.g. rotate left/right, drive forward). Said app displays data measured by the vehicles (temperature, humidity, light intensity, gps). 
+This project, developed by a few colleagues and me, consists of tracked vehicles being controlled via a Web app (e.g. rotate left/right, drive forward). Said app displays data measured by the vehicles (temperature, humidity, light intensity, gps). 
 
 This repository contains (basically everything I developed) the IoT-backend, a Ignite-based, reactive Microservice, and related software (e.g. used for testing). The vehicles talk to the IoT-backend via MQTT (VerneMQ). The Web app communicates with the IoT-backend via HTTP. Data is persisted in an Ignite cluster and in Kafka.
 
